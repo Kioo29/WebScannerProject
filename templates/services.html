@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/services.css">
+    <link rel="icon" type="image/x-icon" href="static/hehe.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>WebScanner</title>
+</head>
+<body>
+    <nav class="nav_bar background">
+        <ul class="nav_list">
+            <img src="../static/main.jpg" width="50" height="50" alt="logo" class="img"/>;
+            <li><a href="./">HOME</a></li>
+            <li><a href="{{url_for('services')}}">SERVICES</a></li>
+            <li><a href="{{url_for('about')}}">ABOUT</a></li>
+            <li><a href="{{url_for('contact')}}">CONTACT US</a></li>
+        </ul>
+        <div class="rightNav">
+            <a href="{{url_for('login')}}"><button class="btnUp">Login </button></a>
+            <a href="{{url_for('register')}}"><button class="btnUp">Register</button></a>
+            
+        </div>
+    </nav>
+  <h1 style="font-size:50px;padding-left: 20px;">Our Products and Services</h1> <br><br>
+  <p style="font-size:30px;padding-left: 20px;">
+    At Web Scanner, we believe that everyone should be able to individually identify about to use a particular website or not. <br>
+    We provide reliable and affordable services that are feature packed and have no charges. <br>
+    We strive to bring you the perfect solution to online security at free of cost. <br>
+    Partnering with leading Certificate Authorities to sell highly trusted  Website Scanners and Email Security Solutions.
+    
+  </p>
+  <section class="thirdSection">
+    <div class="year">
+        <p>&copy;2022 websitename</p>
+    </div>
+        <div class="bot">
+            <p>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </p>
+        </div>   
+</section>
+</body>
+</html>

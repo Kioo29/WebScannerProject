@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" class="back">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/login.css">
+    <link rel="icon" type="image/x-icon" href="static/hehe.ico">
+    <title>WebScanner</title>
+</head>
+<body>
+
+        <form action="logedIN"> 
+            <center>
+            <div class="section">
+                <div class="back">
+                    <a href="{{url_for('home')}}" ><p class="symbol">&#x21d0;</p></a>
+                </div>
+                <div class="first">
+                    <h1 class="f1">Log In</h1>
+                </div>
+                <div class="second">
+                    <input type="text" class="f2" placeholder="   Username" name="username"><br><br>
+                    <input type="password" class="f2" placeholder="   password" name="password"><br><br>
+                    <a href="{{url_for('logedIN')}}"><button class="btn">SIGN IN</button><br><br></a>
+                   
+                        <input type="checkbox" name="remember" id="rem" class="box">
+                        <label>Remember Me</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <label>Forgot Password</label><br><br><br>
+                   
+                    <p style="font-size:25px;"> -or Sign Up With- </p><br><br>
+            
+                    <button class="bottom">Facebook</button>
+                    <button class="bottom">Twitter</button>
+                </div>
+
+            </div>
+        </center>
+        </form>
+
+
+</body>
+</html>

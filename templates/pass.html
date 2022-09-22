@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/pass.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="static/hehe.ico">
+    <title>WebScanner</title>
+</head>
+<body>
+    <nav class="nav_bar background">
+        <ul class="nav_list">
+            <img src="../static/main.jpg" width="50" height="50" alt="logo" class="img"/>;
+            <li><a href="./">HOME</a></li>
+            <li><a href="{{url_for('services')}}">SERVICES</a></li>
+            <li><a href="{{url_for('about')}}">ABOUT</a></li>
+            <li><a href="{{url_for('contact')}}">CONTACT US</a></li>
+        </ul>
+        <div class="rightNav">
+            <a href="{{url_for('login')}}"><button class="btnUp">Login </button></a>
+            <a href="{{url_for('register')}}"><button class="btnUp">Register</button></a>
+            
+        </div>
+    </nav>
+    
+    <center><div class="head"><h1>Results</h1></div></center>
+    <hr class="hr">
+    <center>
+    <p class="bott">This website is :-</p>
+    <h1>{{n}}</h1>
+</center>
+    <h1>Guidelines and Advices :--</h1><br>
+    <p class="bott">
+        1) Always check for COD [Cash On Delivery], if the website is flaged "Not Safe" on our website. <br>
+        2) Never Share Important Credentials with "Not Safe" and "Risky" sites. <br>
+        3) Check Their social media presence through their website. <br>
+        4) Domain Info of that website : - <a href="https://www.urlvoid.com/">URLVOID</a> <br>
+        5)  Thank you for using our website. 
+    </p>
+    <section class="thirdSection">
+        <div class="year">
+            <p>&copy;2022 websitename</p>
+        </div>
+            <div class="bot">
+                <p >
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-google"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </p>
+            </div>   
+    </section>
+</body>
+</html>

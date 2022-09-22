@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/contact.css">
+    <link rel="icon" type="image/x-icon" href="static/hehe.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>WebScanner</title>
+</head>
+<body>
+    <nav class="nav_bar background">
+        <ul class="nav_list">
+            <img src="../static/main.jpg" width="50" height="50" alt="logo" class="img"/>;
+            <li><a href="./">HOME</a></li>
+            <li><a href="{{url_for('services')}}">SERVICES</a></li>
+            <li><a href="{{url_for('about')}}">ABOUT</a></li>
+            <li><a href="{{url_for('contact')}}">CONTACT US</a></li>
+        </ul>
+        <div class="rightNav">
+            <a href="{{url_for('login')}}"><button class="btnUp">Login </button></a>
+            <a href="{{url_for('register')}}"><button class="btnUp">Register</button></a>
+        </div>
+    </nav>
+    <center>
+    <fieldset class="bor">
+        <legend><h1>Contact Us</h1></legend>
+    <form class="abt">
+        
+            <label class="email">Email : </label>
+            <input type="text" class="first"><br><br>
+            <label class="email">Phone Number : </label>
+            <input type="number" class="first"><br><br>
+            <button>Submit</button>
+    </form>
+</fieldset>
+</center>
+<section class="thirdSection">
+    <div class="year">
+        <p>&copy;2022 websitename</p>
+    </div>
+        <div class="bot">
+            <p>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </p>
+        </div>   
+</section>
+</body>
+</html>
