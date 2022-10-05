@@ -69,7 +69,7 @@ def output(site_name):
         abc = ''
         abc = str(domainInfo_2[0])
         abc = abc.replace('<span class="label label-success">', '').replace(
-            "/44</span>", '').replace('<span class="label label-danger">', '')
+            "/43</span>", '').replace('<span class="label label-danger">', '')
         abc = int(abc)
 
         tag = []
